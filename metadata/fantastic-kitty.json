@@ -1,0 +1,11 @@
+{
+  "name": "Fantastic Kitty",
+  "description": "fantastic fan",
+  "image": "https://gateway.pinata.cloud/ipfs/QmRRdeGwi1DumN9mHry9B9GxSFfQPomNF2E8XN1F7nnFyC",
+  "attributes": [
+    { "trait_type": "strength", "value": 32 },
+    { "trait_type": "loyality", "value": 68 },
+    { "trait_type": "stamina", "value": 13 },
+    { "trait_type": "intelligence", "value": 90 }
+  ]
+}

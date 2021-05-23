@@ -8,10 +8,10 @@ const MetaMaskAccountIndex = 0;
 module.exports = {
   // See <http://truffleframework.com/docs/advanced/configuration>
   // to customize your Truffle configuration!
-  contracts_build_directory: path.join(
-    __dirname,
-    "../eth-dapp-frontend/src/contracts/crypto-assets"
-  ),
+  // contracts_build_directory: path.join(
+  //   __dirname,
+  //   "../eth-dapp-frontend/src/contracts/crypto-assets"
+  // ),
   networks: {
     development: {
       port: 7545,
@@ -28,25 +28,16 @@ module.exports = {
       },
       network_id: 5777,
     },
-    ropsten_infura: {
+    rinkyby_infura: {
       provider: function () {
         return new HDWalletProvider(
           process.env.MNEMONIC,
-          "https://ropsten.infura.io/v3/4f1863f990d8434d998d792bd6b746af",
+          "https://rinkeby.infura.io/v3/e70137790703401e80fbc017e1e6fa1d",
           MetaMaskAccountIndex
         );
       },
-      network_id: 3,
-    },
-    gorli_infura: {
-      provider: function () {
-        return new HDWalletProvider(
-          process.env.MNEMONIC,
-          "https://goerli.infura.io/v3/4f1863f990d8434d998d792bd6b746af",
-          MetaMaskAccountIndex
-        );
-      },
-      network_id: 5,
+      network_id: 4,
+      skipDryRun: true,
     },
   },
   compilers: {

@@ -1,0 +1,11 @@
+{
+  "name": "Cool Kitty",
+  "description": "A very coool one",
+  "image": "https://gateway.pinata.cloud/ipfs/QmdSif82x7J7v9aosbfvhzmzSvoNMyip9jrX1ULctEDuNj",
+  "attributes": [
+    { "trait_type": "strength", "value": 20 },
+    { "trait_type": "loyality", "value": 78 },
+    { "trait_type": "stamina", "value": 40 },
+    { "trait_type": "intelligence", "value": 93 }
+  ]
+}
